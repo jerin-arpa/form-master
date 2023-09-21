@@ -15,6 +15,7 @@ const Grandpa = () => {
         <div className="grandpa">
             <h2>Grandpa</h2>
             <p>Net Money: 10000</p>
+
             <MoneyContext.Provider value={[money, setMoney]}>
                 <AssetContext.Provider value="Gold">
                     <section className=" flex">
